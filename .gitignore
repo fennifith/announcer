@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/announce
+announce.so
+announce.dylib
+announce.dll
+announce.a
+announce.lib
+announce-test-*
+*.exe
+*.o
+*.obj
+*.lst

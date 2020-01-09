@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"James Fenn"
+	],
+	"copyright": "Copyright © 2020, James Fenn",
+	"dependencies": {
+		"gtk-d": "~>3.9.0"
+	},
+	"description": "A minimal D application.",
+	"license": "MIT",
+	"name": "announce"
+}
