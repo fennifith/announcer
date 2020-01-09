@@ -20,6 +20,8 @@ class Announcer : ApplicationWindow {
 		text.setAlignment(0.5f);
 		add(text);
 
+		// TODO: change entry size based on text entered - https://gtk-d.dpldocs.info/gtk.Entry.Entry.html
+
 		showAll();
 	}
 
