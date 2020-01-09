@@ -10,6 +10,7 @@ class Announcer : ApplicationWindow {
 		setTitle("Announce");
 		setKeepAbove(true);
 		setModal(true);
+		setDecorated(false);
 		setOpacity(0.5);
 		setBorderWidth(1);
 		setDefaultSize(1000, 0);

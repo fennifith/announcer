@@ -22,7 +22,7 @@ ifeq ($(OS_FLAG),OSX)
 	$(INSTALLEXEC) "./announce" "${DESTDIR}/usr/local/bin/announce"
 else
 	$(INSTALLEXEC) "./announce" "${DESTDIR}/usr/bin/announce"
-	$(INSTALL) "./LICENSE" "${DESTDIR}/usr/share/licenses/aight/LICENSE"
+	$(INSTALL) "./LICENSE" "${DESTDIR}/usr/share/licenses/announce/LICENSE"
 endif
 
 build:
